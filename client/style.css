@@ -1,0 +1,46 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-size: 32pt;
+  font-family: "Roboto Mono", monospace;
+}
+
+h2 {
+  margin-left: 50px;
+}
+
+.active {
+    background: black;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.photo {
+  display: none;
+}
+
+div.grid {
+  margin: 50px;
+  width: 800px;
+  height: 800px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+div.grid-item {
+  width: 5px;
+  height: 5px;
+  border: 1px solid pink;
+}
+
+canvas {
+    border: 1px solid black;
+    width: 343px;
+    height: 480px;
+  }
